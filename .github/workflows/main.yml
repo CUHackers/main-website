@@ -22,8 +22,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: deployment-files
-          path: |
-            build
+          path: build
           retention-days: 1
           
   move_to_deploy:
@@ -36,7 +35,7 @@ jobs:
           name: deployment-files
       - name: move files to new branch
         env:
-          SRC_FOLDER_PATH: "/home/runner/work/main-website/main-website/build"
+          SRC_FOLDER_PATH: "/home/runner/work/main-website/main-website"
           TARGET_BRANCH: "gh-pages"
         run: |
           files=$(find $SRC_FOLDER_PATH -type f)
