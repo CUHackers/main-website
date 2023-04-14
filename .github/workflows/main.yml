@@ -1,5 +1,7 @@
 name: Node CI
 
+permissions: read-all|write-all
+
 on: [push]
 
 jobs:
@@ -25,25 +27,13 @@ jobs:
           path: build
           retention-days: 1
           
-  move_to_deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - name: download artifact
-        uses: actions/download-artifact@v3
-        with:
-          name: deployment-files
-      - name: move files to new branch
-        env:
-          SRC_FOLDER_PATH: "build"
-          TARGET_BRANCH: "gh-pages"
-        run: |
-          files=$(find $SRC_FOLDER_PATH -type f)
-          git config --global user.name 'GitHub Action'
-          git config --global user.email 'action@github.com'
-          git fetch
-          git checkout $TARGET_BRANCH
-          git checkout ${GITHUB_REF##*/} -- $files
-          git add -A
-          git diff-index --quiet HEAD ||  git commit -am "deploy files"  
-          git push origin $TARGET_BRANCH 
+#   move_to_deploy:
+#     needs: build
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: download artifact
+#         uses: actions/download-artifact@v3
+#         with:
+#           name: deployment-files
+#       - name: commit to repo
+          
