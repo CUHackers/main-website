@@ -24,7 +24,7 @@ jobs:
         run: |
           git config --global user.email "oweneisser@gmail.com"
           git config --global user.name "owenpetersen"
-          git add .
+          git add build/*
           git commit -m "Build files"
           git push origin HEAD:gh-pages
       
