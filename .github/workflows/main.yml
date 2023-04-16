@@ -30,21 +30,3 @@ jobs:
           git add build/*
           git commit -m "Build files"
           git push origin HEAD:gh-pages
-      
-#       - name: Archive production artifacts
-#         uses: actions/upload-artifact@v3
-#         with:
-#           name: deployment-files
-#           path: build
-#           retention-days: 1
-          
-#   move_to_deploy:
-#     needs: build
-#     runs-on: ubuntu-latest
-#     steps:
-#       - name: download artifact
-#         uses: actions/download-artifact@v3
-#         with:
-#           name: deployment-files
-#       - name: commit to repo
-          
