@@ -28,6 +28,6 @@ jobs:
           git config --global user.email "github-actions@github.com"
           git config --global user.name "github-actions"
           echo "cuhack.it" > build/CNAME
-          git add build/*
+          git add docs/*
           git commit -m "Build files"
           git push
