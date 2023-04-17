@@ -23,10 +23,20 @@ jobs:
         run: npm run build --if-present
         env:
           CI: false
-      - name: get local changes
+      - name: create new branch for changes
         run: |
-          git config --global user.email "oweneisser@gmail.com"
-          git config --global user.name "owenpetersen"
-          git add build/*
-          git commit -m "Build files"
-          git push origin HEAD:gh-pages
+            git config --global user.email "github-actions@github.com"
+            git config --global user.name "github-actions"
+            git checkout -b temp-branch gh-pages
+            git add build/*
+            git commit -m "Add new build files"
+            git push origin temp-branch
+
+      - name: merge changes back into gh-pages
+        run: |
+          git config --global user.email "github-actions@github.com"
+          git config --global user.name "github-actions"
+          git checkout gh-pages
+          git pull origin gh-pages
+          git merge temp-branch --no-ff -m "Merge new-branch"
+          git push origin gh-pages
