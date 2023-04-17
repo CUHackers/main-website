@@ -27,7 +27,7 @@ jobs:
         run: |
           git config --global user.email "github-actions@github.com"
           git config --global user.name "github-actions"
-          git pull
+          git pull origin main --rebase
           git add build/*
           git commit -m "Build files"
           git push
