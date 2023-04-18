@@ -36,7 +36,7 @@ function App() {
             <Switch>
               <Route exact path='/' component={Homepage} />
               <Route path='/faq' component={Faq} />
-              {/*<Route path='/partners' component={Partners} />*/}
+              {<Route path='/partners' component={Partners} />}
               
               {/* <Route path='/play' component={() => {
               global.window && (global.window.location.href = 'https://cuhackers.github.io/play/');
