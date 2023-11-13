@@ -23,6 +23,10 @@ html {
     background-repeat: no-repeat;
   }
   }
+
+  a {
+    color: #D6634C;
+  }
   
   .partnersHead {
     font-family: lores-15-bold-alt-oakland, sans-serif;
@@ -39,6 +43,27 @@ html {
     //web
     @media only screen and (min-width: 700px) {
       font-size: 42pt;
+      margin: 0;
+      padding-bottom: 15pt;
+      color: #F2DCC6;
+    }
+  }
+
+  .partnersHeadPartnershipPacket {
+    font-family: lores-15-bold-alt-oakland, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+      //mobile
+    @media only screen and (max-width: 700px) {
+      font-size: 22pt;
+      padding-bottom: 15pt;
+      color: #F2DCC6;
+      max-width: 85%;
+      margin: auto;
+    }
+    //web
+    @media only screen and (min-width: 700px) {
+      font-size: 26pt;
       margin: 0;
       padding-bottom: 15pt;
       color: #F2DCC6;

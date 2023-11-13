@@ -1,34 +1,26 @@
 [
     {
-        "question": "Why should I give CUHackit a lot of money?",
-        "answer": "Honestly I wouldn't do it"
+        "question": "What is CUhackit?",
+        "answer": "CUhackit is Clemson University's official hackathon organization! We are completely student run, and we host two hackathons each year: CUhackit, our flagship hackathon, and HelloWorld, our freshmen-only hackathon. Our CUhackit event is the largest hackathon in the South Carolina. In addition, we are working to bring back BothoHacks, our hackathon in Botswana in partnership with Botho University!"
     },
     {
-        "question": "Nah but for real is there a reason why should I do it",
-        "answer": "Seriously don't do it"
+        "question": "Why should our organization partner with CUhackit?",
+        "answer": "Partnering with CUhackit gives you and your organization the opportunity to connect with some of Clemson's most talented and driven students, increase your brand visibility, recruit future talent, and help contribute to the cultivation of future engineers and leaders. It's also a chance to support innovation and technological development in the academic community."
     },
     {
-        "question": "In Xanadu, did Kublai Khan",
-        "answer": "The old lie: Dulce et Decorum Est pro patria mori"
+        "question": "What partnership opportunities are available?",
+        "answer": "We offer various partnership opportunities, including event sponsorship, workshop presentations, judging, mentorship, and more! For more information, check out our partnership prospectus packet (linked above)."
     },
     {
-        "question": "I missed the part where that's my problem",
-        "answer": "You'll get your rent when you fix this damn door!"
+        "question": "How can our organization contribute to CUhackit?",
+        "answer": "Organizations can contribute through financial sponsorship, providing meals or hardware to hackers, donating prizes, and more! Each form of contribution plays a vital role in the success of CUhackit."
     },
     {
-        "question": "We're going on a trip in our favorite rocket ship",
-        "answer": "Zoomin through the skies, Little Einsteins"
+        "question": "What benefits to partners receive?",
+        "answer": "Partners receive a range of benefits such as brand exposure to a diverse group of students, networking opportunities with potential recruits, incorporating your organization's products and services into hackathon \"Challenges,\" showcasing your organization's commitment to education and innovation, and firsthand access to hacker resumes, GitHub and LinkedIn profiles, and projects/hacks. For more information on the different benefits offered, please check our partnership prospectus packet."
     },
     {
-        "question": "The horn of Helm-Hammerhand, shall sound in the deep, one last time",
-        "answer": "Ride now, ride now! Ride! Ride for ruin, and the world's ending!"
-    },
-    {
-        "question": "If you two are finished comparing sizes, we need to figure out a way to track down the lab",
-        "answer": "Look at me...I'm such a dick. It's never too late to stop being a dick!"
-    },
-    {
-        "question": "And so we beat on, boats against the current, borne back ceaselessly into the past",
-        "answer": "The answer to the ultimate question of life, the universe and everything is 42. "
+        "question": "How do we become a partner?",
+        "answer": "To become a partner, please contact us at cuhackers@clemson.edu. We will discuss the partnership levels, benefits, and how we can tailor our partnership to meet your organization's goals."
     }
 ]
