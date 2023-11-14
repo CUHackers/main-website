@@ -17,8 +17,8 @@ const Landing = (props) => {
         };
         return (
             <div id="title">
-                <div>CUhackit 2023</div>
-                <div id="eventdate">February 4th and 5th</div>
+                <div>CUhackit 2024</div>
+                <div id="eventdate">Date soon to be announced :)</div>
                 <div id="eventdate">Clemson, SC</div>
                 <div id="subtitle">
                     <div>
