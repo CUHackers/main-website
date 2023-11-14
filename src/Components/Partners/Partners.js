@@ -25,7 +25,7 @@ function Partners() {
             </div>
             <div className="question">
               <div className="questionq">What benefits do partners receive?</div>
-              <div className="questiona">Partners receive a range of benefits such as brand exposure to a diverse group of students, networking opportunities with potential recruits, incorporating your organization's products and services into hackathon \"Challenges,\" showcasing your organization's commitment to education and innovation, and firsthand access to hacker resumes, GitHub and LinkedIn profiles, and projects/hacks. For more information on the different benefits offered, please reference our partnership prospectus packet.</div>
+              <div className="questiona">Partners receive a range of benefits such as brand exposure to a diverse group of students, networking opportunities with potential recruits, incorporating your organization's products and services into hackathon "Challenges," showcasing your organization's commitment to education and innovation, and firsthand access to hacker resumes, GitHub and LinkedIn profiles, and projects/hacks. For more information on the different benefits offered, please reference our partnership prospectus packet.</div>
             </div>
             <div className="question">
               <div className="questionq">How do we become a partner?</div>
