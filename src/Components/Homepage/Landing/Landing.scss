@@ -229,14 +229,16 @@ header {
       font-weight: 500;
     }
     #subtitle {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr; /* 3 columns */
+      grid-template-rows: auto auto; /* 2 rows */
+      gap: 10px;
       font-size: 18pt;
       font-family: obvia, sans-serif;
       font-weight: 700;
       margin: auto;
       margin-top: 5vh;
       max-width: 90vw;
-      display: flex;
-      justify-content: space-around;
       div {
         max-width: 40vw;
         margin: auto;
@@ -278,12 +280,14 @@ header {
     font-weight: 500;
   }
   #subtitle {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr; /* 3 columns */
+      grid-template-rows: auto auto; /* 2 rows */
+      gap: 10px;
       transform: none;
       font-size: 14pt;
       margin-top: 5vh;
       font-weight: 700;
-      display: flex;
-      align-items: center;
       font-family: obvia, sans-serif;
       width: 25vw;
       justify-content: space-between;
@@ -301,16 +305,24 @@ header {
         }
       }
       > :nth-child(1) {
-        background-color: #fee28a;
+        background-color: #F58E75;
         border-radius: 15px;
       }
       > :nth-child(2) {
-        background-color: #F58E75;
+        background-color: #fee28a;
         border-radius: 15px;
       }
 
   }
 }
+}
+
+.subtitle-hacker {
+  grid-column: 1 / span 3; /* Span across all 3 columns */
+}
+
+.subtitle-mentor, .subtitle-workshop, .subtitle-partner {
+  grid-column: auto; /* Each takes one column */
 }
 
 @keyframes stutter {

@@ -12,28 +12,33 @@ const Landing = (props) => {
 
     function titleoption() {
         const thirdDivStyle = {
-            backgroundColor: "#EEC25E",
+            backgroundColor: "#fee28a",
             borderRadius: "15px",
         };
         return (
             <div id="title">
                 <div>CUhackit 2024</div>
-                <div id="eventdate">Date soon to be announced :)</div>
+                <div id="eventdate">Date soon to be announced!</div>
                 <div id="eventdate">Clemson, SC</div>
                 <div id="subtitle">
-                    <div>
+                    <div className="subtitle-hacker">
                         <a href="https://docs.google.com/forms/d/e/1FAIpQLSdAAfNHaaM1jO_0jSUctC95fdfccfYmc_zBT69dg9-ej5F6WQ/viewform?usp=sf_link">
                             Become a hacker!
                         </a>
                     </div>
-                    <div>
+                    <div className="subtitle-mentor">
                         <a href="https://docs.google.com/forms/d/e/1FAIpQLSeCMX-nIxQv2ZdraGX5qfRD2K6E7fYIJc2ZOi7VkW3hXB-kLw/viewform?usp=sf_link">
                             Become a mentor!
                         </a>
                     </div>
-                    <div style={thirdDivStyle}>
+                    <div className="subtitle-workshop" style={thirdDivStyle}>
                         <a href="https://docs.google.com/forms/d/e/1FAIpQLSfluFId8UPOT4wJZ4o_0ZQXk0l66hskL5x4I79GOLIZ5xMG7w/viewform?usp=sf_link">
                             Lead a workshop!
+                        </a>
+                    </div>
+                    <div className="subtitle-partner" style={thirdDivStyle}>
+                        <a href="/#/partners">
+                            Become a partner!
                         </a>
                     </div>
                 </div>
