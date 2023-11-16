@@ -37,7 +37,6 @@ const Navbar = (props) => {
         <div className="navtag" ><Link2  to="contact" spy={true} smooth={true}>Contact</Link2></div>
         {/* <div className="navtag"><a href="https://cuhackers.github.io/play/" target="_blank">Snake</a></div> */}
         <div className="navtag faq" onClick={scrollHigher}><Link to="/faq">FAQ</Link></div>
-        <div className="navtag" ><Link2  to="contact" spy={true} smooth={true}>Contact</Link2></div>
         <div className="navtag partners" onClick={scrollHigher}> <Link to ="/partners">Partners </Link> </div>
       </>
     )
