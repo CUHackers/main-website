@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.eac371fa.chunk.css",
+    "main.css": "/static/css/main.79142920.chunk.css",
     "main.js": "/static/js/main.7577ba46.chunk.js",
     "main.js.map": "/static/js/main.7577ba46.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b22161a1.js",
@@ -10,7 +10,7 @@
     "static/js/3.4ea0a9ac.chunk.js": "/static/js/3.4ea0a9ac.chunk.js",
     "static/js/3.4ea0a9ac.chunk.js.map": "/static/js/3.4ea0a9ac.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.eac371fa.chunk.css.map": "/static/css/main.eac371fa.chunk.css.map",
+    "static/css/main.79142920.chunk.css.map": "/static/css/main.79142920.chunk.css.map",
     "static/js/2.5b7be12e.chunk.js.LICENSE.txt": "/static/js/2.5b7be12e.chunk.js.LICENSE.txt",
     "static/media/AWS_Logo.bde7636e.png": "/static/media/AWS_Logo.bde7636e.png",
     "static/media/Giant Oak.8ca780cc.png": "/static/media/Giant Oak.8ca780cc.png",
@@ -30,7 +30,7 @@
   "entrypoints": [
     "static/js/runtime-main.b22161a1.js",
     "static/js/2.5b7be12e.chunk.js",
-    "static/css/main.eac371fa.chunk.css",
+    "static/css/main.79142920.chunk.css",
     "static/js/main.7577ba46.chunk.js"
   ]
 }
