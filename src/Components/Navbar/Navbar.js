@@ -32,12 +32,11 @@ const Navbar = (props) => {
     return (
       <>
         {where ? "" : <Homebutton />}
-        <div className="navtag" ><Link2  to="about" spy={true} smooth={true}>About</Link2></div>
-        {/* <div className="navtag" ><Link2  to="partner" spy={true} smooth={true}>Partners</Link2></div> */}
-        <div className="navtag" ><Link2  to="contact" spy={true} smooth={true}>Contact</Link2></div>
+        <Link2 className="navtag" to="about" spy={true} smooth={true}>About</Link2>
+        <Link2 className="navtag" to="contact" spy={true} smooth={true}>Contact</Link2>
         {/* <div className="navtag"><a href="https://cuhackers.github.io/play/" target="_blank">Snake</a></div> */}
-        <div className="navtag faq"><Link className="navtag faq" to="/faq">FAQ</Link></div>
-        <div className="navtag partners"> <Link to ="/partners">Partners </Link> </div>
+        <Link className="navtag faq" to="/faq">FAQ</Link>
+        <Link className="navtag partners" to ="/partners">Partners </Link>
       </>
     )
   };
