@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.eac371fa.chunk.css",
-    "main.js": "/static/js/main.e5a134f5.chunk.js",
-    "main.js.map": "/static/js/main.e5a134f5.chunk.js.map",
+    "main.js": "/static/js/main.7577ba46.chunk.js",
+    "main.js.map": "/static/js/main.7577ba46.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b22161a1.js",
     "runtime-main.js.map": "/static/js/runtime-main.b22161a1.js.map",
     "static/js/2.5b7be12e.chunk.js": "/static/js/2.5b7be12e.chunk.js",
@@ -13,6 +13,7 @@
     "static/css/main.eac371fa.chunk.css.map": "/static/css/main.eac371fa.chunk.css.map",
     "static/js/2.5b7be12e.chunk.js.LICENSE.txt": "/static/js/2.5b7be12e.chunk.js.LICENSE.txt",
     "static/media/AWS_Logo.bde7636e.png": "/static/media/AWS_Logo.bde7636e.png",
+    "static/media/Giant Oak.8ca780cc.png": "/static/media/Giant Oak.8ca780cc.png",
     "static/media/SoCLogo.9b77e9ff.png": "/static/media/SoCLogo.9b77e9ff.png",
     "static/media/binch.9e87adc6.png": "/static/media/binch.9e87adc6.png",
     "static/media/bowls.5c851946.png": "/static/media/bowls.5c851946.png",
@@ -30,6 +31,6 @@
     "static/js/runtime-main.b22161a1.js",
     "static/js/2.5b7be12e.chunk.js",
     "static/css/main.eac371fa.chunk.css",
-    "static/js/main.e5a134f5.chunk.js"
+    "static/js/main.7577ba46.chunk.js"
   ]
 }
