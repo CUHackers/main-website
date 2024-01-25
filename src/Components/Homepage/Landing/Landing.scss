@@ -242,7 +242,7 @@ header {
       div {
         max-width: 40vw;
         margin: auto;
-        margin-bottom: 3vh;
+        margin-bottom: 1vh;
         padding: 5px;
         a {
           text-decoration: none;
@@ -292,7 +292,7 @@ header {
       width: 25vw;
       justify-content: space-between;
       div {
-        margin-bottom: 3vh;
+        margin-bottom: 1vh;
         padding: 10px;
         transition: .25s;
         &:hover {
@@ -319,6 +319,7 @@ header {
 
 .subtitle-hacker {
   grid-column: 1 / span 3; /* Span across all 3 columns */
+  margin-bottom: 10px;
 }
 
 .subtitle-mentor, .subtitle-workshop, .subtitle-partner {
