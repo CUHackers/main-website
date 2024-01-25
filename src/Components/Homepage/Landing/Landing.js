@@ -18,21 +18,21 @@ const Landing = (props) => {
         return (
             <div id="title">
                 <div>CUhackit 2024</div>
-                <div id="eventdate">Date soon to be announced!</div>
+                <div id="eventdate">March 2nd & 3rd</div>
                 <div id="eventdate">Clemson, SC</div>
                 <div id="subtitle">
                     <div className="subtitle-hacker">
-                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdAAfNHaaM1jO_0jSUctC95fdfccfYmc_zBT69dg9-ej5F6WQ/viewform?usp=sf_link">
+                        <a href="https://forms.gle/NDxaXzFqGXtbcbpc8">
                             Become a hacker!
                         </a>
                     </div>
                     <div className="subtitle-mentor">
-                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeCMX-nIxQv2ZdraGX5qfRD2K6E7fYIJc2ZOi7VkW3hXB-kLw/viewform?usp=sf_link">
+                        <a href="https://forms.gle/Gws3pJqn4rtWivrJ9">
                             Become a mentor!
                         </a>
                     </div>
                     <div className="subtitle-workshop" style={thirdDivStyle}>
-                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfluFId8UPOT4wJZ4o_0ZQXk0l66hskL5x4I79GOLIZ5xMG7w/viewform?usp=sf_link">
+                        <a href="https://forms.gle/xw6due2o9xZ1s7ur7">
                             Lead a workshop!
                         </a>
                     </div>
