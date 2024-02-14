@@ -22,7 +22,7 @@ const Landing = (props) => {
                 <div id="eventdate">Clemson, SC</div>
                 <div id="subtitle">
                     <div className="subtitle-hacker">
-                        <a href="https://forms.gle/NDxaXzFqGXtbcbpc8">
+                        <a href="https://forms.gle/CJ5PYrDxKkSGpcBt6">
                             Become a hacker!
                         </a>
                     </div>
