@@ -26,6 +26,11 @@ const Landing = (props) => {
                             Become a hacker!
                         </a>
                     </div>
+                    <div className="subtitle-genaiworkshop">
+                        <a href="https://forms.gle/aMeqhdr8k2xrmFvUA">
+                            Join the AWS GenAI Workshop!
+                        </a>
+                    </div>
                     <div className="subtitle-mentor">
                         <a href="https://forms.gle/Gws3pJqn4rtWivrJ9">
                             Become a mentor!

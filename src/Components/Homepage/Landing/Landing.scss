@@ -250,11 +250,15 @@ header {
         }
       }
       > :nth-child(1) {
-        background-color: #fee28a;
+        background-color: #F58E75;
         border-radius: 15px;
       }
       > :nth-child(2) {
-        background-color: #F58E75;
+        background-color: #ff9c08;
+        border-radius: 15px;
+      }
+      > :nth-child(3) {
+        background-color: #fee28a;
         border-radius: 15px;
       }
     }
@@ -309,6 +313,10 @@ header {
         border-radius: 15px;
       }
       > :nth-child(2) {
+        background-color: #ff9c08;
+        border-radius: 15px;
+      }
+      > :nth-child(3) {
         background-color: #fee28a;
         border-radius: 15px;
       }
@@ -318,6 +326,11 @@ header {
 }
 
 .subtitle-hacker {
+  grid-column: 1 / span 3; /* Span across all 3 columns */
+  margin-bottom: 10px;
+}
+
+.subtitle-genaiworkshop {
   grid-column: 1 / span 3; /* Span across all 3 columns */
   margin-bottom: 10px;
 }
