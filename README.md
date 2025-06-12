@@ -18,4 +18,4 @@ Commit messages should follow the 7 Rules:
 6. Wrap the body at 72 characters
 7. Use the body to explain what and why vs. how
 
-# Further reading here https://cbea.ms/git-commit/
+Further reading here https://cbea.ms/git-commit/
